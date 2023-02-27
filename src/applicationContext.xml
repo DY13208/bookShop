@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans>
+    <bean id="userDao" class="bookshop.dao.imp.UserDaoImp" />
+    <bean id="bookDao" class="bookshop.dao.imp.BookDaoImp" />
+    <bean id="cartItemDao" class="bookshop.dao.imp.CartItemDaoImp" />
+    <bean id="orderDao" class="bookshop.dao.imp.OrderDaoImp" />
+    <bean id="orderItemDao" class="bookshop.dao.imp.OrderItemDaoImp" />
+
+    <bean id="userService" class="bookshop.service.imp.UserServiceImp" >
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+    <bean id="bookService" class="bookshop.service.imp.BookServiceImp" >
+        <property name="bookDao" ref="bookDao" />
+    </bean>
+    <bean id="cartItemService" class="bookshop.service.imp.CartItemServiceImp" >
+        <property name="cartItemDao" ref="cartItemDao" />
+        <property name="bookService" ref="bookService" />
+    </bean>
+    <bean id="orderBeanService" class="bookshop.service.imp.OrderBeanServiceImp" >
+        <property name="orderDao" ref="orderDao" />
+        <property name="orderItemDao" ref="orderItemDao" />
+        <property name="cartItemDao" ref="cartItemDao" />
+    </bean>
+
+    <bean id="user" class="bookshop.Controller.UserController" >
+        <property name="userService" ref="userService" />
+        <property name="cartItemService" ref="cartItemService" />
+    </bean>
+
+    <bean id="book" class="bookshop.Controller.BookController" >
+        <property name="bookService" ref="bookService" />
+    </bean>
+
+    <bean id="cart" class="bookshop.Controller.CartController" >
+        <property name="cartItemService" ref="cartItemService" />
+    </bean>
+    <bean id="order" class="bookshop.Controller.OrderController" >
+        <property name="orderBeanService" ref="orderBeanService" />
+    </bean>
+
+    <bean id="page" class="bookshop.mySpringMvc.PageController"/>
+
+</beans>
+<!--
+1.概念
+HTML : 超文本标记语言XMI
+XML  : 可打展的标记语言
+HTML是XML的一个子禁
+
+2.XML也含三个部分 :
+1) XML声明，而且声明这一行代码必须在XML文件的第一行
+2) DTD 文档类型定义
+3) XML正文
+        -->
+

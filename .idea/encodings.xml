@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lib/c3p0-0.9.1.2.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/commons-dbutils-1.6.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/commons-pool-1.5.5.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/druid-1.1.10.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/gson-2.2.4.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/junit-4.13.1.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/kaptcha-2.3.2.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/mysql-connector-java-8.0.28.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/taglibs-standard-impl-1.2.5.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/taglibs-standard-spec-1.2.5.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/thymeleaf_lib" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/applicationContext.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/JDBCUtil/JdbcDbUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/JDBCUtil/getDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/Util/ConnectionUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/Util/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/DispatcherServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/JDBCUtil/JdbcDbUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/JDBCUtil/getDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/Util/ConnectionUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/Util/StringUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/ViewBaseServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/filters/CharacterEncodingFilters.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/filters/OpenSessionInViewFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/ioc/BeanFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/ioc/ClassPathXmlApplicationContext.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/lisrener/ServletListener.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/bookshop/mySpringMvc/trans/TransactionManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/c3p0-config.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dbcp.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/druid.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jdbc.properties" charset="GBK" />
+  </component>
+</project>
